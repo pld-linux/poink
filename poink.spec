@@ -6,23 +6,23 @@ Release:	1
 License:	GPL v2
 Group:		Networking/Admin
 Source0:	http://www.kernel.pl/~mmazur/%{name}/files/%{name}-%{version}.tar.gz
-URL:		http://www.kernel.pl/~mmazur/poink
+URL:		http://www.kernel.pl/~mmazur/poink/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Poink sends TCP linear syn/rst challenges to network hosts to determine
-whether they are alive. It is a small and hopefully secure implementation
-of the common ping utility that offers far less control over the packet
-options that may be specified (packet size, delay between packets,
-etc.), for both security and bandwidth reasons.
+Poink sends TCP linear syn/rst challenges to network hosts to
+determine whether they are alive. It is a small and hopefully secure
+implementation of the common ping utility that offers far less control
+over the packet options that may be specified (packet size, delay
+between packets, etc.), for both security and bandwidth reasons.
 
 %description -l pl
-Poink wysy³a linearne wyzwania syn/rst do hostów w sieci, ¿eby sprawdziæ
-czy ¿yj±. Jest ma³± i, miejmy nadziejê, bezpieczn± implementacj± znanego
-narzêdzia "ping", która oferuje du¿o mniejsz± kontrolê nad
-w³asciwo¶ciami pakietu które mo¿na ustawiæ (rozmiar pakietu, przerwy
-miedzy pakietami itp.), ze wzglêdu zarówno na bezpieczeñstwo jak i na
-stopieñ obci±¿enia ³±cza.
+Poink wysy³a linearne wyzwania syn/rst do hostów w sieci, ¿eby
+sprawdziæ czy ¿yj±. Jest ma³± i, miejmy nadziejê, bezpieczn±
+implementacj± znanego narzêdzia "ping", która oferuje du¿o mniejsz±
+kontrolê nad w³asciwo¶ciami pakietu które mo¿na ustawiæ (rozmiar
+pakietu, przerwy miedzy pakietami itp.), ze wzglêdu zarówno na
+bezpieczeñstwo jak i na stopieñ obci±¿enia ³±cza.
 
 %prep
 %setup -q
