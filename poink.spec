@@ -5,8 +5,6 @@ Version:	1.5beta
 Release:	1
 License:	GPL v2
 Group:		Networking/Admin
-Group(de):	Netzwerkwesen/Administration
-Group(pl):	Sieciowe/Administracyjne
 Source0:	http://lcamtuf.coredump.cx/soft/%{name}.zip
 BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
