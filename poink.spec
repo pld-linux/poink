@@ -5,9 +5,9 @@ Version:	2.03
 Release:	2
 License:	GPL v2
 Group:		Networking/Admin
-Source0:	http://www.kernel.pl/~mmazur/%{name}/files/%{name}-%{version}.tar.gz
+Source0:	http://ep09.pld-linux.org/~mmazur/%{name}/files/%{name}-%{version}.tar.gz
 # Source0-md5:	c04cc09b88937730deb0ebe06eb988a0
-URL:		http://www.kernel.pl/~mmazur/poink/
+URL:		http://ep09.pld-linux.org/~mmazur/poink/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
