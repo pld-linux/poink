@@ -38,8 +38,6 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 install poink $RPM_BUILD_ROOT%{_bindir}/ping
 install ping.1 $RPM_BUILD_ROOT%{_mandir}/man1/ping.1
 
-gzip -9nf README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -47,4 +45,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man*/*
-%doc *.gz
+%doc README
