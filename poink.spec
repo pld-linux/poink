@@ -1,13 +1,13 @@
 Summary:	Non-suid ping
 Summary(pl):	Nie-suidowy ping
-Name:		ping-nosuid
+Name:		poink
 Version:	1.5beta
 Release:	1
 Group:		Networking/Admin
 Group(de):	Netzwerkwesen/Administration
 Group(pl):	Sieciowe/Administracyjne
-License:	GPL
-Source0:	http://lcamtuf.coredump.cx/soft/poink.zip
+License:	GPL2
+Source0:	http://lcamtuf.coredump.cx/soft/%{name}.zip
 BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -40,6 +40,8 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 install poink $RPM_BUILD_ROOT%{_bindir}/ping
 install ping.1 $RPM_BUILD_ROOT%{_mandir}/man1/ping.1
 
+gzip -9nf README
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -47,3 +49,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man*/*
+%doc *.gz
