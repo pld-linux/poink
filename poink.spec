@@ -21,7 +21,7 @@ between packets, etc.), for both security and bandwidth reasons.
 Poink wysy³a linearne wyzwania syn/rst do hostów w sieci, ¿eby
 sprawdziæ czy ¿yj±. Jest ma³± i, miejmy nadziejê, bezpieczn±
 implementacj± znanego narzêdzia "ping", która oferuje du¿o mniejsz±
-kontrolê nad w³asciwo¶ciami pakietu które mo¿na ustawiæ (rozmiar
+kontrolê nad w³a¶ciwo¶ciami pakietu które mo¿na ustawiæ (rozmiar
 pakietu, przerwy miedzy pakietami itp.), ze wzglêdu zarówno na
 bezpieczeñstwo jak i na stopieñ obci±¿enia ³±cza.
 
