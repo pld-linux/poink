@@ -6,6 +6,7 @@ Release:	1
 License:	GPL v2
 Group:		Networking/Admin
 Source0:	http://www.kernel.pl/~mmazur/%{name}/files/%{name}-%{version}.tar.gz
+# Source0-md5:	c04cc09b88937730deb0ebe06eb988a0
 URL:		http://www.kernel.pl/~mmazur/poink/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
