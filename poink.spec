@@ -5,7 +5,7 @@ Version:	2.03
 Release:	3
 License:	GPL v2
 Group:		Networking/Admin
-Source0:	http://ep09.pld-linux.org/~mmazur/%{name}/files/%{name}-%{version}.tar.gz
+Source0:	http://ep09.pld-linux.org/~mmazur/poink/files/%{name}-%{version}.tar.gz
 # Source0-md5:	c04cc09b88937730deb0ebe06eb988a0
 URL:		http://ep09.pld-linux.org/~mmazur/poink/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -36,13 +36,14 @@ rm -rf $RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc ChangeLog README
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man*/*
-%doc README ChangeLog
