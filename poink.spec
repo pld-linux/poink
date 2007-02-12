@@ -1,5 +1,5 @@
 Summary:	Non-suid ping
-Summary(pl):	Nie-suidowy ping
+Summary(pl.UTF-8):   Nie-suidowy ping
 Name:		poink
 Version:	2.03
 Release:	3
@@ -17,13 +17,13 @@ implementation of the common ping utility that offers far less control
 over the packet options that may be specified (packet size, delay
 between packets, etc.), for both security and bandwidth reasons.
 
-%description -l pl
-Poink wysy³a linearne wyzwania syn/rst do hostów w sieci, ¿eby
-sprawdziæ czy ¿yj±. Jest ma³± i, miejmy nadziejê, bezpieczn±
-implementacj± znanego narzêdzia "ping", która oferuje du¿o mniejsz±
-kontrolê nad w³a¶ciwo¶ciami pakietu które mo¿na ustawiæ (rozmiar
-pakietu, przerwy miedzy pakietami itp.), ze wzglêdu zarówno na
-bezpieczeñstwo jak i na stopieñ obci±¿enia ³±cza.
+%description -l pl.UTF-8
+Poink wysyÅ‚a linearne wyzwania syn/rst do hostÃ³w w sieci, Å¼eby
+sprawdziÄ‡ czy Å¼yjÄ…. Jest maÅ‚Ä… i, miejmy nadziejÄ™, bezpiecznÄ…
+implementacjÄ… znanego narzÄ™dzia "ping", ktÃ³ra oferuje duÅ¼o mniejszÄ…
+kontrolÄ™ nad wÅ‚aÅ›ciwoÅ›ciami pakietu ktÃ³re moÅ¼na ustawiÄ‡ (rozmiar
+pakietu, przerwy miedzy pakietami itp.), ze wzglÄ™du zarÃ³wno na
+bezpieczeÅ„stwo jak i na stopieÅ„ obciÄ…Å¼enia Å‚Ä…cza.
 
 %prep
 %setup -q
