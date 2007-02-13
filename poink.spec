@@ -1,5 +1,5 @@
 Summary:	Non-suid ping
-Summary(pl.UTF-8):   Nie-suidowy ping
+Summary(pl.UTF-8):	Nie-suidowy ping
 Name:		poink
 Version:	2.03
 Release:	3
