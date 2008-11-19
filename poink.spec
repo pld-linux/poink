@@ -2,7 +2,7 @@ Summary:	Non-suid ping
 Summary(pl.UTF-8):	Nie-suidowy ping
 Name:		poink
 Version:	2.03
-Release:	3
+Release:	4
 License:	GPL v2
 Group:		Networking/Admin
 Source0:	http://ep09.pld-linux.org/~mmazur/poink/files/%{name}-%{version}.tar.gz
